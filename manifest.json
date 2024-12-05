@@ -2,18 +2,21 @@
   {
     "src": "icon/lowres.webp",
     "sizes": "48x48",
-    "type": "image/webp"
+    "type": "images/webp"
   },
   {
     "src": "icon/lowres",
-    "sizes": "48x48"
+    "sizes": "48x48",
+    "type": "images/webp"
   },
   {
     "src": "icon/hd_hi.ico",
-    "sizes": "72x72 96x96 128x128 256x256"
+    "sizes": "256×256",
+     "type": "images/ico"
   },
   {
     "src": "icon/hd_hi.svg",
-    "sizes": "72x72"
+    "sizes": "72x72",
+     "type": "images/svg"
   }
 ]
