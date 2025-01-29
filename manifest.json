@@ -11,7 +11,7 @@
           "purpose": "any maskable" // マスク可能なアイコン（透過部分が白背景にならず、アイコンですべて埋まるようにトリミングされる）
       },
       {
-          "src": "./img/512x512.png",
+          "src": "./img/512x512.svg",
           "sizes": "512x512",
           "type": "image/svg",
           "purpose": "any maskable"
