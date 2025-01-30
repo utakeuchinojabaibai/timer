@@ -1,8 +1,7 @@
 {
-  "name": "タイマー",
-  "short_name": "タイマー",
-  "display": "fullscreen",
-  "background_color": "#ffffff",
+  "background_color": "#000000",
+  "description": "タイマーです。",
+  "display": "standalone
   "icons": [
       {
           "src": "./img/192x192.svg",
@@ -17,4 +16,13 @@
           "purpose": "any maskable"
       }
   ]
+  "name": "タイマー",
+  "screenshots": [
+    {
+      "form_factor": "wide",
+      "label": "気象庁の最新地震情報を表示する`地震情報タブ`",
+      "sizes": "960x720",
+      "src": "./images/tab0_wide.png",
+      "type": "image/png"
+    },
 }
