@@ -323,6 +323,12 @@
     };
     run().catch(handleError);
   </script>
-  <a href="https://utakeuchinojabaibai.github.io/timer/gate/index.html">sadogashima</a>
+  <button id="test1">クリック</button>
+    <script>
+        const BUTTON_CLICK_EVENT= document.getElementById('test1');
+        BUTTON_CLICK_EVENT.addEventListener('click', () => {
+            alert("ボタンがクリックされました");
+        });
+    </script>
 </body>
 </html>
