@@ -1,16 +1,23 @@
 {
-	"name": "タイマー",
-	"short_name": "タイマー",
-	"description": " ",
-	"scope": "/",
-	"start_url": ".",
-	"display": "standalone",
-	"orientation": "portrait-primary",
-	"theme_color": "#FFF",
-	"background_color": "#FFF",
-	"categories": ["timer"],
-	"icons": [
-		{ "src": "/musi.png", "sizes": "192×192", "type": "image/png", "purpose": "any" },
-		{ "src": "/musi.png", "sizes": "192×192", "type": "image/png", "purpose": "maskable" }
-	]
+  "name": "タイマー",
+  "short_name": "タイマー",
+  "description": "タイマー",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3f51b5",
+  "icons": [
+    {
+      "src": "musi.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "musi.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
 }
