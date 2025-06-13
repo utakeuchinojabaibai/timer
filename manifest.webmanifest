@@ -10,7 +10,7 @@
 	"background_color": "#FFF",
 	"categories": ["timer"],
 	"icons": [
-		{ "src": "/musi.png", "sizes": "800x800", "type": "image/png", "purpose": "any" },
-		{ "src": "/musi.png", "sizes": "800×800", "type": "image/png", "purpose": "maskable" }
+		{ "src": "/musi.png", "sizes": "192×192", "type": "image/png", "purpose": "any" },
+		{ "src": "/musi.png", "sizes": "192×192", "type": "image/png", "purpose": "maskable" }
 	]
 }
