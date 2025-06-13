@@ -1,7 +1,7 @@
 {
-	"name": "BeepBox",
-	"short_name": "BeepBox",
-	"description": "BeepBox is a tool for sketching and sharing instrumental melodies.",
+	"name": "タイマー",
+	"short_name": "タイマー",
+	"description": "",
 	"scope": "/",
 	"start_url": ".",
 	"display": "browser",
