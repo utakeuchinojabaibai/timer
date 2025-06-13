@@ -1,7 +1,7 @@
 {
 	"name": "タイマー",
 	"short_name": "タイマー",
-	"description": "",
+	"description": "...",
 	"scope": "/",
 	"start_url": ".",
 	"display": "browser",
