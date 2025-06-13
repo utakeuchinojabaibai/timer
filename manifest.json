@@ -10,14 +10,7 @@
     {
       "src": "musi.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "musi.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
+      "type": "image/png"
     }
   ]
 }
