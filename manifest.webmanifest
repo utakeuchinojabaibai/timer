@@ -1,14 +1,14 @@
 {
-	"name": "BeepBox",
-	"short_name": "BeepBox",
-	"description": "BeepBox is a tool for sketching and sharing instrumental melodies.",
+	"name": "タイマー",
+	"short_name": "タイマー",
+	"description": " ",
 	"scope": "/",
 	"start_url": ".",
-	"display": "browser",
+	"display": "standalone",
 	"orientation": "portrait-primary",
-	"theme_color": "#444",
-	"background_color": "#000",
-	"categories": ["music"],
+	"theme_color": "#FFF",
+	"background_color": "#FFF",
+	"categories": ["timer"],
 	"icons": [
 		{ "src": "/musi.png", "sizes": "800x800", "type": "image/png", "purpose": "any" },
 		{ "src": "/musi.png", "sizes": "800×800", "type": "image/png", "purpose": "maskable" }
