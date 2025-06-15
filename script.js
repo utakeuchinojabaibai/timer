@@ -1,3 +1,13 @@
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js')
+    .then(function(registration) {
+      console.log('Service Worker registered with scope: ', registration.scope);
+    })
+    .catch(function(err) {
+      console.log('Service Worker registration failed: ', err);
+    });
+}
+
 /*!
 Parts of this script are from the TurboWarp Packager <https://packager.turbowarp.org/>, licensed as follows:
 Copyright (C) 2021-2024 Thomas Weber
