@@ -1,6 +1,6 @@
 {
-  "name": "Progressive Web Apps",
-  "short_name": "PWA",
+  "name": "タイマー",
+  "short_name": "タイマー",
   "display": "standalone",
   "background_color": "#ffffff",
   "icons": [
