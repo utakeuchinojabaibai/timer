@@ -1,6 +1,6 @@
 {
-  "name": "タイマーweb版",
-  "short_name": "タイマー",
+  "name": "timer",
+  "short_name": "timer",
   "display": "standalone",
   "background_color": "#ffffff",
   "icons": [
