@@ -1,6 +1,6 @@
 {
-  "name": "timer webver",
-  "short_name": "timer",
+  "name": "タイマー",
+  "short_name": "タイマー",
   "display": "standalone",
   "background_color": "#ffffff",
   "icons": [
