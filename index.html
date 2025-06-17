@@ -2,6 +2,7 @@
 <!-- Created with https://packager.turbowarp.org/ -->
 <html>
 <head>
+  <link rel="manifest" href="manifest.json" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <!-- We only include this to explicitly loosen the CSP of various packager environments. It does not provide any security. -->
@@ -143,7 +144,18 @@
     
   </style>
   <meta name="theme-color" content="#000000">
-  
+  <script>
+    if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js')
+    .then(function(registration) {
+      console.log('Service Worker registered with scope: ', registration.scope);
+    })
+    .catch(function(err) {
+      console.log('Service Worker registration failed: ', err);
+    });
+}
+
+ </script>
 </head>
 <body>
   <div id="app"></div>
