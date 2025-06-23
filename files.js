@@ -104,7 +104,7 @@
       Scratch.vm.runtime.on("PROJECT_STOP_ALL", handleProjectStopped);
 
       const INITIAL_BORDER_COLOR = "#888";
-      const DROPPING_BORDER_COLOR = "#03a9fc";
+      const DROPPING_BORDER_COLOR = "#000";
 
       const outer = document.createElement("div");
       outer.style.pointerEvents = "auto";
