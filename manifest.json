@@ -3,6 +3,7 @@
   "short_name": "タイマー",
   "display": "standalone",
   "background_color": "#ffffff",
+  	"categories": ["music"],
   "icons": [
     {
     "src": "./icon.ico",
