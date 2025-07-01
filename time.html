@@ -31,24 +31,5 @@ function timeset() {
     setTimeout("timeset()",500);
 }
             </script>
-        <body>
-  <span id="text"></span>
-
-  <script type="text/javascript">
-  document.getElementById("text").innerHTML = showTime();
-  
-  function showTime() {
-    var now = new Date();
-    var nowhour = now.getHours();
-    var nowminutes = now.getMinutes();
-    var nowseconds = now.getSeconds();
-  
-    var text = nowhour + "：" + nowminutes + "：" + nowseconds; 
-    
-    return num;
-      setTimeout("showTime()",500);
-  }
-  </script>
-  </body>
     </body>
 </html>
