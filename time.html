@@ -20,16 +20,13 @@
             function slideshow_timer(){
                 var num = nowseconds.charAt(1);
                 document.getElementById("mypic").src=pics_src[num];
-                setTimeout("slideshow_timer()",1000); 
-            }
-    
-function timeset() {
-    var now = new Date();
+                 var now = new Date();
     var nowhour = now.getHours();
     var nowminutes = now.getMinutes();
     var nowseconds = now.getSeconds();
-    setTimeout("timeset()",500);
-}
+                setTimeout("slideshow_timer()",500); 
+            }
+    
             </script>
     </body>
 </html>
