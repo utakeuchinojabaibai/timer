@@ -26,11 +26,14 @@
                 document.getElementById("mypic").src=pics_src[num];
                 setTimeout("slideshow_timer()",1000); 
             }
+    
+function timeset() {
     var now = new Date();
     var nowhour = now.getHours();
     var nowminutes = now.getMinutes();
     var nowseconds = now.getSeconds();
-
+    setTimeout("slideshow_timer()",500);
+}
             </script>
     </body>
 </html>
