@@ -12,17 +12,13 @@
         <img id="mypic" src="pics/0.png" width="65px" height="84px">
             <script>
             var pics_src = new Array("pics/0.png","pics/1.png","pics/2.png","pics/3.png","pics/4.png","pics/5.png","pics/6.png","pics/7.png","pics/8.png","pics/9.png",);
-            var num = -1;
+                timeset();
+            var num = nowseconds;
 
             slideshow_timer();
 
             function slideshow_timer(){
-                if (num == 9){
-                    num = 0;
-                } 
-                else {
-                    num ++;
-                }
+                var num = nowseconds;
                 document.getElementById("mypic").src=pics_src[num];
                 setTimeout("slideshow_timer()",1000); 
             }
@@ -32,7 +28,7 @@ function timeset() {
     var nowhour = now.getHours();
     var nowminutes = now.getMinutes();
     var nowseconds = now.getSeconds();
-    setTimeout("slideshow_timer()",500);
+    setTimeout("timeset()",500);
 }
             </script>
     </body>
