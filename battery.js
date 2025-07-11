@@ -20,7 +20,7 @@
     const info = {
         id: EXTENSION_ID,
         name: EXTENSION_NAME,
-        blocks: blocks,
+        blocks: reporter,
     };
 
     // 拡張機能のクラスを定義
